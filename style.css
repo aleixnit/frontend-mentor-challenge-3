@@ -17,6 +17,8 @@ body {
   border-top-left-radius: 10px;
   display: block;
   margin: 15px auto 0px auto;
+  object-fit: cover;
+
 }
 .product-info {
   background-color: white;
@@ -90,6 +92,11 @@ body {
         justify-content: center;
         align-items: center;
         height: 100vh;
+        
+    }
+
+    #mi-imagen {
+        content: url("./images/image-product-desktop.jpg");
     }
 
     .product-image {
@@ -98,6 +105,8 @@ body {
         border-bottom-left-radius: 10px;
         border-top-right-radius: 0px;
         margin: 0;
+        object-fit: cover;
+        object-position: bottom;
       }
 
       .product-info {
