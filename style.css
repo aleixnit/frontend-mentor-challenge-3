@@ -92,7 +92,6 @@ body {
         justify-content: center;
         align-items: center;
         height: 100vh;
-        
     }
 
     #mi-imagen {
@@ -113,6 +112,11 @@ body {
         width: 250px;
         height: 350px;
         margin: 0;
+      }
+
+      body > main > section {
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
       }
       
   }
